@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahil Jaiswal — Portfolio</title>
+  <meta name="description" content="Sahil Jaiswal — Brand Management, Growth Marketing & Consumer Insights. PGDM student at Crucible Institute, Mumbai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- ─── Animated Particle Canvas ─── -->
+  <canvas id="particles"></canvas>
+
+  <!-- ─── Floating Nav Dots ─── -->
+  <nav id="nav-dots" aria-label="Section navigation">
+    <button data-target="hero" class="dot active" aria-label="Intro"><span class="dot-label">Intro</span></button>
+    <button data-target="about" class="dot" aria-label="About"><span class="dot-label">About</span></button>
+    <button data-target="experience" class="dot" aria-label="Experience"><span class="dot-label">Work</span></button>
+    <button data-target="skills" class="dot" aria-label="Skills"><span class="dot-label">Skills</span></button>
+    <button data-target="projects" class="dot" aria-label="Projects"><span class="dot-label">Projects</span></button>
+    <button data-target="academics" class="dot" aria-label="Academic"><span class="dot-label">Academic</span></button>
+    <button data-target="contact" class="dot" aria-label="Contact"><span class="dot-label">Contact</span></button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       DEEP-DIVE PANEL (opens on card click)
+       ═══════════════════════════════════════ -->
+  <div id="deep-dive" class="deep-dive" aria-hidden="true">
+    <div class="dd-backdrop"></div>
+    <div class="dd-panel">
+      <button class="dd-close" aria-label="Close">&times;</button>
+
+      <!-- Tabs -->
+      <div class="dd-tabs">
+        <button class="dd-tab active" data-tab="details">Details</button>
+        <button class="dd-tab" data-tab="gallery">Gallery</button>
+      </div>
+
+      <!-- Tab: Details -->
+      <div class="dd-content dd-tab-details active">
+        <div class="dd-header">
+          <span class="dd-badge"></span>
+          <h3 class="dd-title"></h3>
+          <p class="dd-subtitle"></p>
+          <p class="dd-role"></p>
+        </div>
+        <div class="dd-blocks"></div>
+        <div class="dd-tags"></div>
+      </div>
+
+      <!-- Tab: Gallery -->
+      <div class="dd-content dd-tab-gallery">
+        <div class="dd-gallery-grid"></div>
+        <p class="dd-no-images">No visuals available for this project.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen image overlay -->
+  <div id="img-fullscreen" class="img-fullscreen">
+    <img src="" alt="" />
+  </div>
+
+  <!-- ═══════════════════════════════
+       S1 · HERO
+       ═══════════════════════════════ -->
+  <section id="hero" class="snap-section hero">
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="hero-content">
+
+      <div class="name-wrapper">
+        <span class="name-deco name-deco-left"><svg width="60" height="60" viewBox="0 0 60 60"><path d="M30 5L35 25L55 30L35 35L30 55L25 35L5 30L25 25Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+        <h1 class="hero-name">
+          <span class="name-line name-line-first">Sahil</span>
+          <span class="name-line name-line-last"><span class="accent">Jaiswal</span><span class="name-period accent">.</span></span>
+        </h1>
+        <span class="name-deco name-deco-right"><svg width="40" height="40" viewBox="0 0 40 40"><circle cx="20" cy="20" r="15" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/><circle cx="20" cy="20" r="6" fill="currentColor" opacity="0.3"/></svg></span>
+      </div>
+      <div class="hero-line"><span class="line-segment"></span><span class="line-diamond">◇</span><span class="line-segment"></span></div>
+      <p class="hero-sub">PGDM Student · Crucible Institute · Mumbai</p>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down">
+        <span class="cue-text">Scroll to explore</span>
+        <div class="cue-mouse"><div class="cue-wheel"></div></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S2 · ABOUT
+       ═══════════════════════════════ -->
+  <section id="about" class="snap-section about">
+    <div class="section-bg-pattern"></div>
+    <div class="container">
+      <div class="about-grid reveal-scale">
+        <div class="about-photo-wrapper">
+          <div class="photo-ring"></div>
+          <div class="photo-ring photo-ring-2"></div>
+          <div class="photo-crop-wrapper">
+            <img src="avatar.png" alt="Sahil Jaiswal" class="about-photo-img" />
+          </div>
+          <div class="photo-badge"><svg width="20" height="20" viewBox="0 0 20 20"><path d="M10 2L12.5 7.5L18 10L12.5 12.5L10 18L7.5 12.5L2 10L7.5 7.5Z" fill="currentColor"/></svg></div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-label"><span class="label-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg></span>01 — About</h2>
+          <p class="about-lead">Managed <strong>250 vehicles</strong>. Built a PS5 parlour from scratch. Now diving deep into <strong>brand strategy</strong>.</p>
+          <div class="about-details">
+            <div class="detail-item"><span class="detail-icon">🎓</span><div><span class="detail-label">Education</span><span class="detail-value">PGDM — Crucible Institute (2025–27)<br/>B.Com — University of Mumbai</span></div></div>
+            <div class="detail-item"><span class="detail-icon">💪</span><div><span class="detail-label">Beyond Work</span><span class="detail-value">Fitness non-negotiable · Film storytelling across genres</span></div></div>
+          </div>
+          <a href="#experience" class="next-link"><span>See what I've built</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S3 · EXPERIENCE
+       ═══════════════════════════════ -->
+  <section id="experience" class="snap-section experience">
+    <div class="container">
+      <h2 class="section-label reveal"><span class="label-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg></span>02 — Experience</h2>
+      <div class="exp-cards">
+
+        <!-- ── Clutch Point ── -->
+        <div class="exp-card reveal-left">
+          <div class="card-glow"></div>
+          <div class="exp-header"><div class="exp-icon-wrap"><span class="exp-emoji">🎮</span></div><div><span class="exp-date">Jan 2025 — Present</span><h3 class="exp-title">Clutch Point</h3><p class="exp-role">Founder &amp; Operator · PS5 Gaming Parlour · Mumbai</p></div></div>
+          <div class="exp-stats">
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="130 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">80</span><span class="stat-label">customers/week</span></div>
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="50 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">30%</span><span class="stat-label">repeat growth</span></div>
+          </div>
+          <div class="exp-gallery"><img src="images/image-4-1.png" alt="Clutch Point — the gaming space" /><img src="images/image-4-2.png" alt="Customers gaming at Clutch Point" /><img src="images/image-4-3.png" alt="Gaming session in progress" /></div>
+          <ul class="exp-bullets">
+            <li>Manage <strong>end-to-end daily operations</strong> of a PS5 gaming parlour serving ~80 customers/week</li>
+            <li>Enhanced customer journey by curating a seamless <strong>booking &amp; billing process</strong> via gaming software, boosting satisfaction &amp; revenue</li>
+            <li>Increased repeat customer visits by <strong>~30%</strong> through optimized slot management</li>
+            <li>Built from zero — <strong>customer acquisition</strong>, WhatsApp marketing, billing system</li>
+          </ul>
+          <p class="exp-desc">A ground-up entrepreneurial venture — from finding the space to acquiring the first customer and building a loyal community.</p>
+        </div>
+
+        <!-- ── SMJ Speed Logistic ── -->
+        <div class="exp-card reveal-right">
+          <div class="card-glow"></div>
+          <div class="exp-header"><div class="exp-icon-wrap"><span class="exp-emoji">🚛</span></div><div><span class="exp-date">Jun 2024 — Aug 2025</span><h3 class="exp-title">SMJ Speed Logistic Solutions Pvt. Ltd.</h3><p class="exp-role">Accounts &amp; Operations · Cement &amp; Steel Bulk Transport · Mumbai</p></div></div>
+          <div class="exp-stats">
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="160 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">250</span><span class="stat-label">vehicle fleet</span></div>
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="80 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">50+</span><span class="stat-label">entries/day</span></div>
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="40 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">2-day</span><span class="stat-label">holding cut</span></div>
+            <div class="stat"><div class="stat-ring"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/><circle cx="30" cy="30" r="26" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="105 200" stroke-linecap="round" class="stat-progress"/></svg></div><span class="stat-num">80</span><span class="stat-label">drivers managed</span></div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Managed daily operations for a <strong>250-vehicle bulk logistics fleet</strong> (cement &amp; steel transport)</li>
+            <li>Coordinated with <strong>80 drivers and 10 vendors</strong> for dispatch, routing, and documentation</li>
+            <li>Processed and verified <strong>50+ accounting entries/day</strong> — trip sheets, fuel logs, vendor payments</li>
+            <li>Reduced garage holding time by <strong>2 days</strong>, improving fleet readiness and lowering downtime</li>
+          </ul>
+          <p class="exp-desc">Large-scale operations exposure — managing people, money, and machines simultaneously across a high-volume logistics network.</p>
+        </div>
+
+      </div>
+      <a href="#skills" class="next-link reveal"><span>What did I learn?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S4 · SKILLS
+       ═══════════════════════════════ -->
+  <section id="skills" class="snap-section skills">
+    <div class="section-bg-pattern"></div>
+    <div class="container">
+      <h2 class="section-label reveal"><span class="label-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>03 — Skills</h2>
+      <p class="skills-lead reveal">Developed through live projects, fieldwork & business operations — not classroom alone.</p>
+      <div class="skills-grid">
+        <div class="skill-card reveal-left" style="--delay:.05s"><div class="skill-visual"><div class="skill-icon-circle"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg></div><div class="skill-glow-dot"></div></div><h3>Research & Insights</h3><p>Qualitative research · Discussion guides · Consumer interviews · Quantitative surveys</p><div class="skill-bar"><div class="skill-fill" style="--fill:85%"></div></div></div>
+        <div class="skill-card reveal-right" style="--delay:.15s"><div class="skill-visual"><div class="skill-icon-circle"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><div class="skill-glow-dot"></div></div><h3>Brand & Marketing</h3><p>Brand strategy · Brand Iceberg · Digital campaigns · Consumer segmentation</p><div class="skill-bar"><div class="skill-fill" style="--fill:90%"></div></div></div>
+        <div class="skill-card reveal-left" style="--delay:.25s"><div class="skill-visual"><div class="skill-icon-circle"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/><path d="M13 15h4M13 18h2"/></svg></div><div class="skill-glow-dot"></div></div><h3>Business & Analytics</h3><p>Financial analysis · DRHP reading · Advanced Excel · Data tracking · Ops audit</p><div class="skill-bar"><div class="skill-fill" style="--fill:80%"></div></div></div>
+        <div class="skill-card reveal-right" style="--delay:.35s"><div class="skill-visual"><div class="skill-icon-circle"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><div class="skill-glow-dot"></div></div><h3>Tools & Tech</h3><p>Canva Magic Studio · AI tools · App development · Dashboard build · Product thinking</p><div class="skill-bar"><div class="skill-fill" style="--fill:75%"></div></div></div>
+      </div>
+      <a href="#projects" class="next-link reveal"><span>See the projects</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S5 · INDUSTRY PROJECTS (cards → click for deep-dive panel)
+       ═══════════════════════════════ -->
+  <section id="projects" class="snap-section projects">
+    <div class="container">
+      <h2 class="section-label reveal"><span class="label-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg></span>04 — Industry Projects</h2>
+      <p class="projects-lead reveal">6 live client engagements. Real briefs. Real outcomes. <strong>Click any card</strong> to deep-dive.</p>
+
+      <div class="project-grid">
+
+        <!-- 01 Beyond Snacks -->
+        <div class="project-card reveal-left clickable-project" style="--delay:.05s"
+             data-title="Beyond Snacks"
+             data-subtitle="Retail Market Mapping · Parle"
+             data-role="Field Researcher"
+             data-badge="Industry"
+             data-color="#f59e0b"
+             data-context="A retail distribution assessment project aimed at understanding product visibility and availability across multiple outlets."
+             data-obj="To evaluate <strong>shelf presence, visibility</strong>, and identify <strong>distribution gaps</strong> across 150+ retail outlets."
+             data-execution="Conducted on-ground audits across <strong>150+ stores</strong>. Measured shelf placement, brand visibility, and competitor presence. Created <strong>visibility scoring framework</strong> for standardization. Identified stock availability and distribution inconsistencies."
+             data-insights="High-demand outlets still had <strong>inconsistent product placement</strong>. Competitors were outperforming in visibility, not necessarily pricing. <strong>Distribution gaps</strong> existed even in high-footfall areas."
+             data-impact="Enabled identification of <strong>high-priority outlets</strong> for restocking. Provided actionable inputs for improving retail visibility strategy. Highlighted <strong>missed revenue opportunities</strong> due to poor placement."
+             data-skills="Field Research,Retail Analytics,Observational Insight,Data Structuring"
+             data-images="">
+          <div class="project-visual"><span class="project-emoji">🛒</span><span class="project-num">01</span></div>
+          <div class="project-body"><h3>Beyond Snacks</h3><p class="project-type">Retail Market Mapping</p><p class="project-insight">Audited <strong>150+ outlets</strong> — mapped shelf presence, visibility scores & distribution gaps.</p></div>
+          <div class="project-tags"><span class="tag">Field Research</span><span class="tag">150+ Outlets</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+
+        <!-- 02 GrowFit -->
+        <div class="project-card reveal-right clickable-project" style="--delay:.1s"
+             data-title="GrowFit"
+             data-subtitle="Market Readiness Research · Consumer Insights · Mumbai"
+             data-role="Lead Researcher"
+             data-badge="Industry"
+             data-color="#10b981"
+             data-context="A health-focused product/company assessing market readiness and consumer adoption challenges."
+             data-obj="To understand <strong>consumer perception, adoption barriers</strong>, and readiness for the product."
+             data-execution="Conducted <strong>50+ in-depth consumer interviews</strong>. Used qualitative + quantitative research methods. Identified <strong>behavioral and psychological barriers</strong>. Segmented users based on readiness and awareness."
+             data-insights="Adoption barriers were driven more by <strong>habits than pricing</strong>. Awareness did not translate into action due to lifestyle inertia. <strong>Trust and perceived effectiveness</strong> were key decision drivers."
+             data-impact="Helped refine <strong>go-to-market strategy</strong>. Provided clarity on target segment prioritization. Enabled <strong>messaging shift</strong> from awareness to behavior change."
+             data-skills="Consumer Research,Interviewing,Insight Synthesis,Market Strategy"
+             data-images="">
+          <div class="project-visual"><span class="project-emoji">🧬</span><span class="project-num">02</span></div>
+          <div class="project-body"><h3>GrowFit</h3><p class="project-type">Market Readiness Research</p><p class="project-insight"><strong>50+ consumer interviews</strong> — uncovered adoption barriers beyond surface-level responses.</p></div>
+          <div class="project-tags"><span class="tag">Qual + Quant</span><span class="tag">Market Entry</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+
+        <!-- 03 Athena -->
+        <div class="project-card reveal-left clickable-project" style="--delay:.15s"
+             data-title="Athena Global Logistics"
+             data-subtitle="Design Thinking · Sales Systems · Operations"
+             data-role="Design Thinking Lead"
+             data-badge="Industry"
+             data-color="#a855f7"
+             data-context="A logistics company facing internal misalignment between sales and leadership communication."
+             data-obj="To identify and resolve <strong>breakdowns in communication</strong> affecting operational efficiency."
+             data-execution="Conducted <strong>2-day field immersion</strong> within operations. Mapped communication flow between teams. Identified <strong>friction points and information gaps</strong>. Applied design thinking framework to propose solutions."
+             data-insights="Misalignment was due to <strong>lack of structured communication systems</strong>. Information loss occurred during handoffs between teams. Operational inefficiencies stemmed from <strong>unclear expectations</strong>."
+             data-impact="Proposed <strong>structured communication workflows</strong>. Improved clarity between sales and operations teams. Reduced dependency on <strong>informal communication channels</strong>."
+             data-skills="Design Thinking,Systems Mapping,Problem Structuring,Operations Insight"
+             data-images="images/image-10-1.png,images/image-10-2.png,images/image-10-3.png">
+          <div class="project-visual"><span class="project-emoji">🚀</span><span class="project-num">03</span></div>
+          <div class="project-body"><h3>Athena Global Logistics</h3><p class="project-type">Design Thinking & Systems</p><p class="project-insight"><strong>2-day field immersion</strong> — resolved sales-to-leadership communication breakdown.</p></div>
+          <div class="project-tags"><span class="tag">Design Thinking</span><span class="tag">Sales Ops</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+
+        <!-- 04 Ajwani -->
+        <div class="project-card reveal-right clickable-project" style="--delay:.2s"
+             data-title="Ajwani Group"
+             data-subtitle="AI Dashboard · Construction Sector · Business Development"
+             data-role="Product Developer"
+             data-badge="Industry"
+             data-color="#22d3ee"
+             data-context="Manual tender tracking process leading to inefficiencies and missed opportunities."
+             data-obj="To <strong>automate tender monitoring</strong> and improve tracking efficiency using AI."
+             data-execution="Analyzed existing manual workflow. Identified <strong>repetitive and time-consuming steps</strong>. Designed an <strong>AI-powered dashboard</strong> for tracking tenders. Structured data inputs for automation."
+             data-insights="Significant time was spent on <strong>low-value manual tracking</strong>. Lack of centralized data caused missed tender opportunities. <strong>Automation</strong> could drastically improve response speed."
+             data-impact="Reduced <strong>manual effort</strong> and improved efficiency. Increased <strong>visibility of tender opportunities</strong>. Enabled faster and more informed decision-making."
+             data-skills="Process Optimization,Automation Thinking,Business Analysis,AI Application"
+             data-images="images/image-11-1.png,images/image-11-2.png,images/image-11-3.png">
+          <div class="project-visual"><span class="project-emoji">🤖</span><span class="project-num">04</span></div>
+          <div class="project-body"><h3>Ajwani Group</h3><p class="project-type">AI Tender Intelligence</p><p class="project-insight">Replaced manual tender monitoring with an <strong>AI-powered dashboard</strong>.</p></div>
+          <div class="project-tags"><span class="tag">AI</span><span class="tag">Automation</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+
+        <!-- 05 Vijay Sales -->
+        <div class="project-card reveal-left clickable-project" style="--delay:.25s"
+             data-title="Vijay Sales"
+             data-subtitle="Operations Immersion · Large-Format Retail · 8-Day Study"
+             data-role="Operations Analyst"
+             data-badge="Industry"
+             data-color="#fb7185"
+             data-context="A high-footfall retail environment to understand real purchase behavior and operational flow."
+             data-obj="To analyze <strong>customer purchase triggers</strong> and in-store behavior dynamics."
+             data-execution="Conducted <strong>8-day floor-level observation</strong>. Tracked customer movement, engagement, and decision-making. Observed <strong>sales staff interactions</strong> and influence patterns. Studied product placement and conversion behavior."
+             data-insights="Sales staff <strong>significantly influenced</strong> purchase decisions. Customers relied heavily on <strong>recommendations over research</strong>. Product placement impacted impulse buying."
+             data-impact="Identified ways to improve <strong>in-store conversion rates</strong>. Highlighted importance of <strong>staff training</strong> in sales. Provided insights for better merchandising strategy."
+             data-skills="Retail Operations,Behavioral Analysis,Sales Understanding,Customer Psychology"
+             data-images="images/image-12-1.jpeg,images/image-12-2.jpeg,images/image-12-3.jpeg">
+          <div class="project-visual"><span class="project-emoji">🏬</span><span class="project-num">05</span></div>
+          <div class="project-body"><h3>Vijay Sales</h3><p class="project-type">Operations Immersion</p><p class="project-insight"><strong>8-day floor-level study</strong> — observed purchase triggers in a high-footfall retail environment.</p></div>
+          <div class="project-tags"><span class="tag">Retail Ops</span><span class="tag">8-Day Study</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+
+        <!-- 06 Uptrack -->
+        <div class="project-card reveal-right clickable-project" style="--delay:.3s"
+             data-title="Uptrack App"
+             data-subtitle="Product Thinking · App Development · EdTech"
+             data-role="Product Designer"
+             data-badge="Industry"
+             data-color="#818cf8"
+             data-context="A concept project to solve attendance tracking inefficiencies in educational institutions."
+             data-obj="To <strong>design a smart attendance tracking system</strong> using technology."
+             data-execution="Defined <strong>user personas</strong> (students, faculty, admin). Mapped end-to-end user journeys. Designed system using <strong>Wi-Fi, Bluetooth, QR-based tracking</strong>. Incorporated anti-cheating and privacy considerations."
+             data-insights="Attendance systems fail due to <strong>lack of automation and trust</strong>. Users value <strong>convenience over strict enforcement</strong>. Privacy concerns are critical in tech adoption."
+             data-impact="Created a <strong>scalable EdTech solution</strong> concept. Improved accuracy and efficiency in attendance tracking. Balanced <strong>automation with user privacy</strong>."
+             data-skills="Product Thinking,UX Research,System Design,EdTech Strategy"
+             data-images="images/image-13-1.png,images/image-13-2.png,images/image-13-3.png">
+          <div class="project-visual"><span class="project-emoji">📱</span><span class="project-num">06</span></div>
+          <div class="project-body"><h3>Uptrack App</h3><p class="project-type">Product Thinking · EdTech</p><p class="project-insight">Designed an AI attendance tracking system — mapped user journeys for students & faculty.</p></div>
+          <div class="project-tags"><span class="tag">Product</span><span class="tag">App Design</span></div>
+          <span class="card-cta">Click to deep-dive →</span>
+        </div>
+      </div>
+
+      <a href="#academics" class="next-link reveal"><span>See academic work</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S6 · ACADEMIC PROJECTS
+       ═══════════════════════════════ -->
+  <section id="academics" class="snap-section academics-section">
+    <!-- Animated background visuals -->
+    <div class="acad-bg-effects">
+      <div class="acad-orb acad-orb-1"></div>
+      <div class="acad-orb acad-orb-2"></div>
+      <div class="acad-orb acad-orb-3"></div>
+      <div class="acad-orb acad-orb-4"></div>
+      <div class="acad-mesh"></div>
+      <div class="acad-shape acad-shape-1"></div>
+      <div class="acad-shape acad-shape-2"></div>
+      <div class="acad-shape acad-shape-3"></div>
+      <div class="acad-shape acad-shape-4"></div>
+      <div class="acad-shape acad-shape-5"></div>
+    </div>
+    <div class="container">
+      <h2 class="section-label reveal"><span class="label-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></span>05 — Academic Projects</h2>
+      <p class="academics-lead reveal">Two terms. 14 courses. Real briefs — not textbook exercises.</p>
+
+      <h3 class="term-heading reveal"><span class="term-badge">Term 1</span>May – Jul · 7 Courses · 180 Sessions</h3>
+      <div class="acad-grid reveal">
+        <div class="acad-card clickable-acad" style="--acad-color: var(--amber)"
+             data-title="Garage Business Audit"
+             data-subtitle="Intro to Business · Term 1"
+             data-badge="Term 1"
+             data-color="#f59e0b"
+             data-obj="To analyze a business <strong>holistically</strong> by understanding its revenue model, cost structure, operations, and growth stage."
+             data-approach="Broke down the business into key functions (operations, finance, marketing). Studied <strong>revenue streams and cost drivers</strong>. Identified inefficiencies and growth bottlenecks. Mapped current stage (startup, growth, maturity)."
+             data-learn="Businesses must be evaluated as <strong>interconnected systems</strong>, not isolated functions. Small inefficiencies in operations can significantly impact profitability. <strong>Structured thinking</strong> (like frameworks) improves decision-making clarity.">
+          <h4>Garage Business Audit</h4><span class="acad-course">Intro to Business</span>
+          <p>Learnt to look at a business <strong>holistically</strong> — mapping functions, revenue model, and growth stage.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--pink)"
+             data-title="₹1,000 Venture Sprint"
+             data-subtitle="Intro to Business · Term 1"
+             data-badge="Term 1"
+             data-color="#ec4899"
+             data-obj="To build and execute a business within <strong>extreme financial constraints</strong> and test real market demand."
+             data-approach="Identified a low-cost, high-demand opportunity. Quickly launched a <strong>minimum viable product (MVP)</strong>. Focused on fast execution rather than perfect planning. Iterated based on <strong>real customer feedback</strong>."
+             data-learn="<strong>Speed and execution</strong> matter more than overplanning. Customer mindset is critical — <strong>assumptions often fail</strong>. Constraints drive creativity and smarter resource allocation.">
+          <h4>₹1,000 Venture Sprint</h4><span class="acad-course">Intro to Business</span>
+          <p><strong>Execution under constraint</strong> is a skill. Speed, <strong>customer mindset</strong>, and scrappiness matter more than planning.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--cyan)"
+             data-title="Purchase Decision Field Study"
+             data-subtitle="Consumer Behaviour · Term 1"
+             data-badge="Term 1"
+             data-color="#22d3ee"
+             data-obj="To understand <strong>real consumer buying behavior</strong> in natural environments rather than relying on surveys."
+             data-approach="Observed consumers in <strong>real purchase settings</strong>. Noted decision triggers (price, brand, urgency, social influence). Analyzed differences between <strong>stated vs actual behavior</strong>."
+             data-learn="Real behavior often differs from what consumers claim. <strong>Context (environment, urgency)</strong> strongly influences decisions. Observational research provides <strong>deeper insights</strong> than surveys.">
+          <h4>Purchase Decision Field Study</h4><span class="acad-course">Consumer Behaviour</span>
+          <p><strong>Real consumer behaviour</strong> observed in the field is more valuable than any survey.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--green)"
+             data-title="Personal Performance Analytics"
+             data-subtitle="Intro to Data · Term 1"
+             data-badge="Term 1"
+             data-color="#10b981"
+             data-obj="To <strong>track and analyze personal data</strong> to improve productivity and performance."
+             data-approach="Collected daily performance data (time, output, habits). <strong>Cleaned and structured data</strong> for analysis. Identified patterns and inefficiencies."
+             data-learn="<strong>Data-driven self-analysis</strong> improves decision-making. Small habit changes compound into <strong>significant performance gains</strong>. Consistency in tracking is key to meaningful insights.">
+          <h4>Personal Performance Analytics</h4><span class="acad-course">Intro to Data</span>
+          <p>Learnt to <strong>collect, clean, and interpret</strong> self-generated data.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--accent)"
+             data-title="DRHP Deep Dive"
+             data-subtitle="Foundation of Finance · Term 1"
+             data-badge="Term 1"
+             data-color="#a855f7"
+             data-obj="To understand how to <strong>read and interpret financial documents</strong> like a business story."
+             data-approach="Analyzed a company's DRHP (financial + strategic data). Studied <strong>revenue models, risks, and growth strategies</strong>. Connected financial numbers with business decisions."
+             data-learn="Financial statements reflect <strong>strategic intent</strong>, not just numbers. Risk disclosures provide critical insights into <strong>business weaknesses</strong>. Strong financial literacy is essential for business decision-making.">
+          <h4>DRHP Deep Dive</h4><span class="acad-course">Foundation of Finance</span>
+          <p>Learnt to read a <strong>financial document</strong> like a business story.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--rose)"
+             data-title="Situational Role Plays"
+             data-subtitle="Managerial Communication · Term 1"
+             data-badge="Term 1"
+             data-color="#fb7185"
+             data-obj="To develop <strong>communication skills</strong> based on different business contexts and stakeholders."
+             data-approach="Simulated real-world scenarios (<strong>negotiation, conflict, pitching</strong>). Adapted tone, structure, and messaging based on audience. Practiced <strong>structured communication frameworks</strong>."
+             data-learn="Communication effectiveness depends on <strong>context, not just clarity</strong>. Framing and tone can change outcomes significantly. <strong>Structured communication</strong> improves persuasion.">
+          <h4>Situational Role Plays</h4><span class="acad-course">Managerial Communication</span>
+          <p><strong>Communication is situational</strong> — tone, framing, and audience change everything.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+      </div>
+
+      <h3 class="term-heading reveal"><span class="term-badge">Term 2</span>Aug – Nov · 7 Courses · 175 Sessions</h3>
+      <div class="acad-grid reveal">
+        <div class="acad-card clickable-acad" style="--acad-color: var(--cyan)"
+             data-title="Max Protein — Qualitative Study"
+             data-subtitle="Consumer Insights 1 · Term 2"
+             data-badge="Term 2"
+             data-color="#22d3ee"
+             data-obj="To understand <strong>consumer perceptions and motivations</strong> behind protein product consumption."
+             data-approach="Designed <strong>interview questionnaires</strong>. Conducted in-depth consumer interviews. Analyzed responses to identify <strong>behavioral patterns</strong>."
+             data-learn="Consumers are driven by <strong>perception (health, image)</strong> more than facts. Asking unbiased questions is critical in research. <strong>Qualitative insights</strong> reveal deeper motivations than quantitative data.">
+          <h4>Max Protein — Qualitative Study</h4><span class="acad-course">Consumer Insights 1</span>
+          <p>Learnt to <strong>design a research instrument</strong> and conduct consumer interviews without leading.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--pink)"
+             data-title="Café Behaviour Study"
+             data-subtitle="Consumer Insights 2 · Term 2"
+             data-badge="Term 2"
+             data-color="#ec4899"
+             data-obj="To analyze how <strong>social context and environment</strong> influence consumer behavior in cafés."
+             data-approach="Observed customer behavior in café settings. Studied <strong>group dynamics, ordering patterns</strong>, and time spent. Linked behavior with <strong>emotional and social triggers</strong>."
+             data-learn="Consumption is often driven by <strong>experience, not just product</strong>. Social setting strongly impacts spending behavior. <strong>Atmosphere</strong> plays a key role in customer retention.">
+          <h4>Café Behaviour Study</h4><span class="acad-course">Consumer Insights 2</span>
+          <p>Consumer decisions are driven by <strong>aspiration and social context</strong> as much as product.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--amber)"
+             data-title="Multi-Brand Segmentation"
+             data-subtitle="Consumer Segmentation · Term 2"
+             data-badge="Term 2"
+             data-color="#f59e0b"
+             data-obj="To understand how <strong>different customer segments</strong> perceive and interact with the same product."
+             data-approach="Segmented customers based on <strong>demographics and behavior</strong>. Compared brand perception across segments. Identified <strong>targeting and positioning differences</strong>."
+             data-learn="One product can have <strong>multiple meanings</strong> for different audiences. Segmentation is essential for <strong>effective marketing</strong>. Positioning must align with target audience psychology.">
+          <h4>Multi-Brand Segmentation</h4><span class="acad-course">Consumer Segmentation</span>
+          <p><strong>Segmentation</strong> is about how different people relate to the same product differently.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--accent)"
+             data-title="Clutch Point — Brand Iceberg"
+             data-subtitle="Brand Management · Term 2"
+             data-badge="Term 2"
+             data-color="#a855f7"
+             data-obj="To understand <strong>brand building</strong> beyond visible elements like logo and design."
+             data-approach="Analyzed brand at surface (<strong>visual identity</strong>) and deep levels (values, emotions). Identified emotional triggers and <strong>brand promise</strong>. Mapped brand perception vs intended positioning."
+             data-learn="Strong brands are built on <strong>emotional connection</strong>, not just visuals. Brand perception is shaped by <strong>consistent experience</strong>. Hidden layers (values, promise) drive loyalty.">
+          <h4>Clutch Point — Brand Iceberg</h4><span class="acad-course">Brand Management</span>
+          <p>A <strong>brand is far more than its logo</strong>. The emotional promise builds loyalty.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--green)"
+             data-title="Live Campaign — Crucible Institute"
+             data-subtitle="Digital Marketing · Term 2"
+             data-badge="Term 2"
+             data-color="#10b981"
+             data-obj="To <strong>plan and execute a real-world marketing campaign</strong> end-to-end."
+             data-approach="Defined <strong>campaign objective and target audience</strong>. Created content and distribution strategy. Executed campaign and <strong>tracked performance metrics</strong>."
+             data-learn="Execution challenges are very different from <strong>theoretical planning</strong>. Data and feedback are essential for <strong>campaign optimization</strong>. Coordination and speed are critical in live environments.">
+          <h4>Live Campaign — Crucible</h4><span class="acad-course">Digital Marketing</span>
+          <p>Learnt to <strong>run a real campaign</strong> end to end — theory vs live execution.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+        <div class="acad-card clickable-acad" style="--acad-color: var(--indigo)"
+             data-title="Swiggy Instamart Dark Store Study"
+             data-subtitle="Operations Management · Term 2"
+             data-badge="Term 2"
+             data-color="#818cf8"
+             data-obj="To understand how <strong>backend operations impact customer experience</strong> in quick commerce."
+             data-approach="Studied <strong>dark store operations</strong> and fulfillment process. Analyzed order flow, inventory, and <strong>delivery efficiency</strong>. Connected operational decisions with customer outcomes."
+             data-learn="Customer experience is heavily dependent on <strong>backend efficiency</strong>. Speed requires strong operational systems, not just manpower. <strong>Operations can be a major competitive advantage</strong>.">
+          <h4>Swiggy Instamart Dark Store</h4><span class="acad-course">Operations Management</span>
+          <p><strong>Customer experience</strong> is a direct output of <strong>back-end operational decisions</strong>.</p>
+          <span class="acad-cta">Read more →</span>
+        </div>
+      </div>
+
+
+      <a href="#contact" class="next-link reveal"><span>Let's connect</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       S7 · CONTACT
+       ═══════════════════════════════ -->
+  <section id="contact" class="snap-section contact">
+    <div class="contact-shapes"><div class="shape shape-c1"></div><div class="shape shape-c2"></div></div>
+    <div class="container contact-center">
+      <div class="reveal-scale">
+        <div class="contact-icon-badge"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <h2 class="contact-heading">Let's<br/><span class="accent">Connect.</span></h2>
+        <p class="contact-sub">Brand Management · Growth Marketing · D2C Startups · Youth Consumer Brands</p>
+        <div class="contact-links">
+          <a href="mailto:sahiljaiswal1908@gmail.com" class="contact-btn"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span><span>sahiljaiswal1908@gmail.com</span></a>
+          <a href="tel:+919321561338" class="contact-btn"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span><span>+91 9321561338</span></a>
+          <a href="https://www.linkedin.com/in/sahil-jaiswal-303b742b8" target="_blank" rel="noopener" class="contact-btn"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span><span>linkedin.com/in/sahil-jaiswal-303b742b8</span></a>
+        </div>
+        <p class="contact-tagline">✦ Hungry to build. Ready to contribute. ✦</p>
+        <p class="contact-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Mumbai, India</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

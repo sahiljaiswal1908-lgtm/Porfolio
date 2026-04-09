@@ -1,0 +1,403 @@
+﻿=== slide1.xml ===
+PROFESSIONAL PORTFOLIO
+Sahil
+Jaiswal.
+Brand Management  ·  Growth Marketing  ·  Consumer Insights
+PGDM Student
+Crucible Institute
+Mumbai
+Sahil Jaiswal
+sahiljaiswal1908@gmail.com
++91 9321561338
+Mumbai, India
+Crucible Institute of Management  ·  PGDM  ·  Batch 2025–27
+
+=== slide2.xml ===
+ABOUT ME
+Who I am  ·  What I have done  ·  Where I am now
+YOUR
+PHOTO
+S J
+WORK EXPERIENCE
+Accounts & Operations
+  ·  SMJ Speed Logistic Solutions Pvt. Ltd.
+Cement & steel bulk transport — managed a 250-vehicle fleet, 80 drivers, 50+ accounting entries/day, reduced garage holding time by 2 days.
+Founder & Operator
+  ·  Clutch Point — PS5 Gaming Parlour
+Built from zero — customer acquisition, WhatsApp marketing, billing system. ~80 customers/week, ~30% repeat visit growth.
+EDUCATION
+Post Graduate Diploma in Management (PGDM) — Crucible Institute of Management  ·  Ongoing
+Bachelor of Commerce — University of Mumbai, Vidyavihar  ·  Completed Mar 2025
+BEYOND WORK
+Fitness enthusiast — gym is a non-negotiable part of my routine. Outside of that, films are my way to unwind — good storytelling across any genre.
+
+=== slide3.xml ===
+WHAT'S INSIDE
+01
+About Me
+Background, education & current work
+02
+Work Experience
+Clutch Point  ·  SMJ Speed Logistic
+03
+Personal Skills
+Built through doing, not classroom
+04
+Industry Projects
+6 live client & field engagements
+05
+Academic Projects
+Term 1 & Term 2 — real briefs
+06
+Contact
+LinkedIn  ·  Email  ·  Phone
+
+=== slide4.xml ===
+WORK EXPERIENCE
+Clutch Point
+Founder  ·  PS5 Gaming Parlour  ·  Jan 2025 – Present  ·  Mumbai
+Jan '25 – Now
+Clutch Point  ·  The Space  ·  Customers Gaming
+Manage end-to-end daily operations of a PS5 gaming parlour serving ~80 customers/week
+Enhanced the customer journey by curating a seamless booking and billing process for walk-in clients through gaming software, resulting in higher customer satisfaction and revenue growth
+Increased repeat customer visits by ~30% through optimized slot management
+~80 customers/week   ·   30% repeat visit growth   ·   Founder & Operator
+
+=== slide5.xml ===
+WORK EXPERIENCE
+SMJ Speed Logistic Solutions Pvt. Ltd.
+Accounts & Operations  ·  Cement & Steel Bulk Transport  ·  Jun 2024 – Aug 2025  ·  Mumbai
+Jun '24–Aug '25
+ADD PHOTO / IMAGE
+HERE
++ Photo 2
++ Photo 3
+Managed daily operations for 250-vehicle bulk logistics fleet
+Coordinated with 80 drivers and 10 vendors for dispatch, routing, and documentation
+Processed and verified 50+ accounting entries/day across trip sheets, fuel logs, and vendor payments
+Reduced garage holding time by 2 days, improving fleet readiness and lowering downtime
+250-vehicle fleet   ·   80 drivers   ·   50+ entries/day   ·   2-day holding time reduction
+
+=== slide6.xml ===
+PERSONAL SKILLS
+Developed through live projects, fieldwork & business operations
+RESEARCH & INSIGHTS
+Qualitative Research  ·  Discussion Guides  ·  Consumer Interviews  ·  Quantitative Surveys  ·  Market Readiness Studies
+BRAND & MARKETING
+Brand Strategy  ·  Brand Iceberg Framework  ·  Digital Campaigns  ·  Consumer Segmentation  ·  Brand Positioning
+BUSINESS & ANALYTICS
+Financial Analysis  ·  DRHP Reading  ·  Advance Excel  ·  Data Tracking & Interpretation  ·  Operations Audit  ·  Retail Field Research
+TOOLS & TECH
+Canva Magic Studio  ·  AI tools (Loveable, Antigravity, etc.)  ·  AI App Development  ·  Dashboard Build  ·  Digital Product Thinking
+
+=== slide7.xml ===
+INDUSTRY PROJECTS
+6 live engagements  ·  real clients  ·  real outcomes
+01
+Beyond Snacks
+Retail Market Mapping
+Physical brand presence study across 150+ outlets
+02
+GrowFit
+Market Readiness Research
+Consumer adoption barriers in the Mumbai market
+03
+Athena Global Logistics
+Design Thinking & Systems
+Sales-to-leadership communication gap resolved
+04
+Ajwani Group
+AI Tender Intelligence
+Manual tender monitoring replaced with AI dashboard
+05
+Vijay Sales
+Operations Immersion
+8-day floor-level retail operations study
+06
+Uptrack App
+App Development
+Concept & design of AI attendance tracking system
+
+=== slide8.xml ===
+PROJECT 01  ·  INDUSTRY
+Beyond Snacks
+Retail Market Mapping  ·  Field Research
+Field Researcher
+ADD YOUR
+IMAGE HERE
+Photo  ·  Screenshot  ·  Dashboard  ·  Evidence
++ Photo 2
++ Photo 3
+BUSINESS OBJECTIVE
+Map Beyond Snacks physical market presence
+ across retail outlets to identify 
+distribution gaps
+, shelf visibility issues, and expansion opportunities.
+MY APPROACH
+Personally visited and audited 150+ retail outlets
+ — recording product placement, 
+shelf share
+, visibility score, and presence vs. absence data at each outlet systematically.
+KEY LEARNINGS
+Understood how a brand's 
+physical shelf presence
+ directly impacts consumer discovery. Learnt to 
+read distribution patterns
+, identify white spaces, and translate field observations into structured brand insights.
+Field Research
+150+ Outlets
+Market Mapping
+Distribution
+
+=== slide9.xml ===
+PROJECT 02  ·  INDUSTRY
+GrowFit
+Market Readiness Research  ·  Consumer Insights  ·  Mumbai
+Lead Researcher
+ADD YOUR
+IMAGE HERE
+Photo  ·  Screenshot  ·  Dashboard  ·  Evidence
++ Photo 2
++ Photo 3
+BUSINESS OBJECTIVE
+Assess Mumbai's market readiness
+ for GrowFit's product — understanding 
+consumer appetite
+, adoption barriers, and competitive landscape before a potential expansion.
+MY APPROACH
+Conducted a 50-response survey
+ combined with on-ground consumer interviews. 
+Probed barriers to adoption
+ including reward opacity, delayed benefit perception, and app fatigue — using structured and open-ended methods.
+KEY LEARNINGS
+Learnt how to 
+design and execute end-to-end consumer research
+ with real business stakes. Understood the difference between surface-level responses and 
+deeper motivations
+ uncovered through qualitative probing.
+Consumer Research
+50+ Interviews
+Qual + Quant
+Market Entry
+
+=== slide10.xml ===
+PROJECT 03  ·  INDUSTRY
+Athena Global Logistics
+Design Thinking  ·  Sales Systems  ·  Operations
+Design Thinking Lead
+Salesperson Log Visit  ·  Leadership Pipeline Heatmap  ·  Objections & Competitor Signals
+BUSINESS OBJECTIVE
+Identify the 
+root cause of communication breakdown
+ between Athena's field sales team and head office — and 
+design a practical system
+ to resolve it.
+MY APPROACH
+Spent 
+2 days immersed at Athena
+ conducting structured interviews with both frontline salespeople and pricing teams. 
+Mapped the broken workflow
+ and co-designed a real-time field activity update system.
+KEY LEARNINGS
+Understood how to apply 
+design thinking as a structured problem-solving method
+ in a real business. Learnt that the best solutions come from 
+speaking to both sides of a problem
+ before designing anything.
+Design Thinking
+Field Immersion
+Systems Design
+Sales Ops
+
+=== slide11.xml ===
+PROJECT 04  ·  INDUSTRY
+Ajwani Group
+AI Dashboard  ·  Construction Sector  ·  Business Development
+Product Developer
+Tender Intelligence Dashboard  ·  Dashboard View  ·  Tender Detail  ·  Calendar View
+BUSINESS OBJECTIVE
+Eliminate manual monitoring
+ of government portals for construction tender releases — ensuring no opportunity is missed due to human error or bandwidth constraints.
+MY APPROACH
+Conceptualised and built an AI-integrated dashboard
+ that automatically captures, filters, and surfaces relevant government tender releases in real time — removing the need for daily manual checks.
+KEY LEARNINGS
+Learnt how to 
+translate a real operational pain point into a product solution
+. Understood how 
+AI can be applied practically
+ in a traditional business — not just in tech companies.
+AI Integration
+Dashboard
+Automation
+Business Dev
+
+=== slide12.xml ===
+PROJECT 05  ·  INDUSTRY
+Vijay Sales
+Operations Immersion  ·  Large-Format Retail  ·  8-Day Study
+Operations Analyst
+Project Visuals
+BUSINESS OBJECTIVE
+Gain ground-level understanding
+ of large-format retail operations — covering inventory, staffing, customer handling, and 
+sales floor execution
+ during a high-volume campaign.
+MY APPROACH
+Spent 
+8 consecutive days on the floor
+ alongside a senior sales executive — observing 
+purchase decision triggers
+, customer behaviour patterns, billing workflows, and day-to-day operational coordination.
+KEY LEARNINGS
+Understood how 
+retail decisions are made at the floor level
+ versus what is planned strategically. Developed an eye for 
+consumer behaviour in high-footfall environments
+ and what separates effective retail execution.
+Retail Ops
+8-Day Immersion
+Consumer Behaviour
+Sales Floor
+
+=== slide13.xml ===
+PROJECT 06  ·  INDUSTRY
+Uptrack — Attendance App
+Product Thinking  ·  App Development  ·  EdTech
+Product Designer
+Admin Dashboard  ·  Faculty Live Session  ·  Student Analytics
+BUSINESS OBJECTIVE
+Design a mobile and web-based attendance tracking system
+ that eliminates friction, reduces proxy, and automates a process that is currently manual and unreliable.
+MY APPROACH
+Mapped user journeys
+ for both students and faculty, structured the platform logic, identified core features, and 
+translated user needs into practical interface design
+.
+KEY LEARNINGS
+Learnt how to think like a 
+product manager
+ — starting from user pain, moving through problem definition, arriving at a structured feature set. Understood 
+system-level thinking
+ and balancing user needs against constraints.
+Product Thinking
+User Journey
+App Design
+EdTech
+
+=== slide14.xml ===
+ACADEMIC PROJECTS  ·  TERM 1
+May – Jul  ·  7 Courses  ·  180 Sessions
+INTRO TO BUSINESS
+Garage Business Audit
+Learnt to look at a business 
+holistically
+ — mapping functions, revenue model, and growth stage. First real exposure to 
+cross-functional thinking
+.
+INTRO TO BUSINESS
+₹1,000 Venture Sprint
+Learnt that 
+execution under constraint
+ is a skill. Speed, 
+customer mindset
+, and scrappiness matter more than perfect planning when resources are limited.
+CONSUMER BEHAVIOUR
+Purchase Decision Field Study
+Learnt that 
+real consumer behaviour
+ observed in the field is more valuable than any survey. Developed the habit of 
+observing before concluding
+.
+INTRO TO DATA
+Personal Performance Analytics
+Learnt to 
+collect, clean, and interpret
+ self-generated data. Understood that data without context is meaningless — 
+trends only make sense
+ when you know what caused them.
+FOUNDATION OF FINANCE
+DRHP Deep Dive
+Learnt to read a 
+financial document
+ like a business story. Built foundational 
+financial literacy
+ — understanding what a company discloses and why.
+MANAGERIAL COMM.
+Situational Role Plays
+Learnt that 
+communication is situational
+ — the same message lands differently depending on tone, framing, and audience. Developed 
+self-awareness under pressure
+.
+
+=== slide15.xml ===
+ACADEMIC PROJECTS  ·  TERM 2
+Aug – Nov  ·  7 Courses  ·  175 Sessions
+CONSUMER INSIGHTS 1
+Max Protein — Qualitative Study
+Learnt to 
+design a research instrument
+ from scratch and 
+conduct consumer interviews
+ without leading the respondent. The real insight is always one layer below the first answer.
+CONSUMER INSIGHTS 2
+Café Behaviour Study
+Learnt that consumer decisions are driven by 
+aspiration and social context
+ as much as product. Understood the difference between 
+functional needs
+ and 
+emotional motivations
+.
+CONSUMER SEGMENTATION
+Multi-Brand Segmentation
+Learnt that 
+segmentation
+ is not just demographics — it is about how different people relate to the same product differently. Understood how 
+targeting shifts positioning
+.
+BRAND MANAGEMENT
+Clutch Point — Brand Iceberg
+Learnt that a 
+brand is far more than its logo
+. The values, beliefs, and 
+emotional promise
+ underneath the visible layer are what actually 
+build loyalty
+.
+DIGITAL MARKETING
+Live Campaign — Crucible Institute
+Learnt what it takes to 
+run a real campaign
+ end to end — from setting an objective to measuring what worked. Understood the gap between 
+theory and live execution
+.
+OPERATIONS MANAGEMENT
+Swiggy Instamart Dark Store Study
+Learnt how 
+quick commerce
+ works from the inside. Understood that 
+customer experience
+ is a direct output of 
+back-end operational decisions
+.
+
+=== slide16.xml ===
+LET'S
+CONNECT.
+Brand Management  ·  Growth Marketing
+D2C Startups  ·  Youth Consumer Brands
+sahiljaiswal1908@gmail.com
++91 9321561338
+REACH OUT
+EMAIL
+sahiljaiswal1908@gmail.com
+PHONE
++91 9321561338
+LINKEDIN
+linkedin.com/in/sahiljaiswal
+LOCATION
+Mumbai, India
+Hungry to build. Ready to contribute.
+
